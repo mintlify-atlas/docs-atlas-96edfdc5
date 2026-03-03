@@ -1,0 +1,86 @@
+{
+  "projectType": "cli-tool",
+  "projectName": "PyInterp",
+  "projectDescription": "A fully tree-walking Python interpreter written in Objective-C, supporting a rich subset of Python 3 features.",
+  "theme": "aspen",
+  "primaryColor": "#3776AB",
+  "lightColor": "#FFD43B",
+  "darkColor": "#306998",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Get Started",
+        "pages": [
+          "introduction",
+          "installation",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Core Concepts",
+        "pages": [
+          "concepts/architecture",
+          "concepts/supported-features",
+          "concepts/lexer",
+          "concepts/parser",
+          "concepts/interpreter"
+        ]
+      },
+      {
+        "group": "Usage",
+        "pages": [
+          "usage/running-scripts",
+          "usage/benchmarking",
+          "usage/testing"
+        ]
+      },
+      {
+        "group": "API Reference",
+        "pages": [
+          "api/lexer",
+          "api/parser",
+          "api/interpreter",
+          "api/ast-nodes"
+        ]
+      },
+      {
+        "group": "Examples",
+        "pages": [
+          "examples/hello-world",
+          "examples/fibonacci",
+          "examples/oop",
+          "examples/advanced"
+        ]
+      },
+      {
+        "group": "Advanced",
+        "pages": [
+          "advanced/building",
+          "advanced/extending",
+          "advanced/performance"
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Tree-walking interpreter architecture with lexer, parser, and evaluator",
+    "Rich Python 3 subset: functions, classes, closures, recursion, built-ins",
+    "Comprehensive data types: int, float, str, bool, None, list, dict, tuple",
+    "Control flow: if/elif/else, while, for…in, break, continue",
+    "Object-oriented programming with classes and instance methods",
+    "Built-in functions: print, len, range, sum, sorted, enumerate, zip, and more",
+    "String, list, and dict methods with full Python semantics",
+    "Math module with common functions",
+    "Performance benchmarking against CPython"
+  ],
+  "publicApiSurface": [
+    "pyinterp <script.py> - Execute Python script",
+    "Lexer - Tokenize Python source code",
+    "Parser - Generate AST from tokens",
+    "Interpreter - Execute AST statements",
+    "Token - Represents lexical token",
+    "ASTNode - Represents syntax tree node",
+    "PyObject - Represents Python runtime object",
+    "Environment - Variable scope management"
+  ]
+}
